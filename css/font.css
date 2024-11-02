@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url(../fonts/FuturaPT/stylesheet.css);
+
+@font-face {
+	font-family: 'Segoe UI';
+	font-style: normal;
+	font-weight: 400;
+	/* Браузер сначала попробует найти шрифт локально */
+	src: local('Segoe UI'),
+		url('..\fonts\Segoe UI/Segoe UI.woff2') format('woff2'),
+		url('..\fonts\Segoe UI/Segoe UI.woff') format('woff'),
+		url('..\fonts\Segoe UI/Segoe UI.ttf') format('truetype');
+}
+
+* {
+	font-family: 'Forum', sans-serif;
+}
+
+:root {
+	--btn-text-color: #c4c4c4;
+	--btn-active-color: #272727;
+	--fz-64: 64px;
+	--fz-48: 48px;
+	--fz-24: 24px;
+	--fz-18: 18px;
+	--fz-16: 16px;
+	--fz-14: 14px;
+}
+
+.title-1 {
+	font-size: var(--fz-64);
+	font-weight: 400;
+	line-height: 71px;
+	letter-spacing: 1.92px;
+}
+
+.title-2 {
+	font-size: var(--fz-24);
+	font-weight: 300;
+	line-height: 31px;
+}
+
+.title-3 {
+	font-size: var(--fz-48);
+	font-weight: 400;
+	line-height: 53px;
+	letter-spacing: 1.44px;
+}
+
+.text-1 {
+	font-size: var(--fz-18);
+	font-weight: 300;
+	line-height: 23px;
+	letter-spacing: 0.54px;
+}
+
+.text-3 {
+	font-size: var(--fz-16);
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0.8px;
+}
+
+.text-4 {
+	font-size: var(--fz-14);
+	font-weight: 400;
+	line-height: 18px;
+	letter-spacing: 0.7px;
+}
+
+.btn {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 21px;
+	background-color: transparent;
+	cursor: pointer;
+	color: var(--btn-text-color);
+}
+
+.active {
+	color: var(--btn-active-color) !important;
+}

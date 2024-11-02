@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Moon River</title>
+		<link rel="stylesheet" href="css/settings.css" />
+		<link rel="stylesheet" href="css/font.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css"
+		/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container container">
+					<div class="header-logo logo">
+						<img src="img/logo.svg" alt="" class="logo" />
+					</div>
+
+					<div class="header-control">
+						<ul class="control-list">
+							<li class="control-item">
+								<button class="btn-reset btn-contorl btn-heart"></button>
+							</li>
+							<li class="control-item">
+								<button class="btn-reset btn-contorl btn-profile"></button>
+							</li>
+							<li class="control-item">
+								<button class="btn-reset btn-contorl btn-card">
+									<span class="btn-card__num text-1">1</span>
+								</button>
+							</li>
+							<li class="control-item burger-box">
+								<button
+									class="btn-reset burger"
+									aria-label="Открыть меню"
+								></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+
+			<main>
+				<section class="hero">
+					<div class="hero__container container">
+						<div class="hero-content">
+							<div class="hero-left">
+								<div class="hero-title title-1">HIGH JEWELRY</div>
+								<a class="hero-left__text text-1" href="#"
+									>Смотреть коллекцию</a
+								>
+							</div>
+							<div class="header-content__img-wrapper">
+								<img
+									class="herader-content__img"
+									src="img/ring.svg"
+									alt="Example of ring"
+								/>
+							</div>
+
+							<div class="hero-change__lang">
+								<button
+									class="btn-reset hero-change__btn hero-change__ru text-3 active"
+								>
+									RU
+								</button>
+								<button
+									class="btn-reset hero-change__btn hero-change__en text-3"
+								>
+									EN
+								</button>
+							</div>
+
+							<div class="header-ring">
+								<h2 class="ring-name text-3">КОЛЬЦО TRINITY, Cartier</h2>
+								<p class="ring-description text-1">Белое золото, бриллианты</p>
+								<p class="ring-price text-1">498 000 ₽</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="choice">
+					<div class="choice-list">
+						<article class="choice-item choice-man">
+							<img src="img/man-bg.jpg" alt="man is holding his tie" />
+							<a href="#" class="choice-link" data-lang="choice-1">
+								<span class="choice-link__text title-2"
+									>Перейти в раздел</span
+								></a
+							>
+							<div class="choice-content">
+								<h2 class="choice-title title-1">Для мужчин</h2>
+							</div>
+						</article>
+
+						<article class="choice-item choice-woman">
+							<img src="img/woman-bg.jpg" alt="man is holding his tie" />
+							<a href="#" class="choice-link" data-lang="choice-1">
+								<span class="choice-link__text title-2"
+									>Перейти в раздел</span
+								></a
+							>
+							<div class="choice-content">
+								<h2 class="choice-title title-1">Для женщин</h2>
+							</div>
+						</article>
+					</div>
+				</div>
+
+				<section class="section-map">
+					<div class="map-list">
+						<div class="map-list__item map-list__item--form">
+							<h3 class="form-title title-3">Найди</h3>
+							<h3 class="form-title title-3">бутик около себя</h3>
+							<p class="form-text text-1">
+								Введите свой адрес и узнайте о самых ближайших бутиках к вам
+							</p>
+							<div class="form-input">
+								<form>
+									<input
+										placeholder="Введите адрес"
+										class="form-input__textfield text-1"
+										type="text"
+									/>
+									<button type="submit" class="btn-reset form-input__submit">
+										<svg
+											width="30"
+											height="17"
+											viewBox="0 0 30 17"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M21.125 1L29 8.5M29 8.5L21.125 16M29 8.5H1"
+												stroke="white"
+												stroke-width="1.8"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</button>
+								</form>
+							</div>
+						</div>
+						<div class="map-list__item map-list-item--map">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6354.070155105789!2d37.62839949001985!3d55.73238806693767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b1cb353adcb%3A0x8c3c08d5caea685e!2z0KLQtdCw0YLRgCDQm9GD0L3Riw!5e0!3m2!1sru!2sru!4v1729946613406!5m2!1sru!2sru"
+								width="600"
+								height="450"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+							></iframe>
+						</div>
+					</div>
+				</section>
+
+				<div class="gallery">
+					<div class="gallery__container">
+						<div class="gallery-list">
+							<article class="gallery-item">
+								<figure class="gallery-card">
+									<picture>
+										<img src="img/gallery-1.png" alt="ring" />
+									</picture>
+									<figcaption class="gallery-info">
+										<h2 class="ring-name text-3">КОЛЬЦО TRINITY, Cartier</h2>
+										<p class="ring-description text-1">
+											Белое золото, бриллианты
+										</p>
+										<p class="ring-price text-1">498 000 ₽</p>
+									</figcaption>
+								</figure>
+							</article>
+
+							<article class="gallery-item gallery-item--full">
+								<figure class="gallery-card">
+									<picture>
+										<img src="img/gallery-3.png" alt="ring" />
+									</picture>
+								</figure>
+							</article>
+
+							<article class="gallery-item">
+								<figure class="gallery-card">
+									<picture>
+										<img src="img/gallery-1.png" alt="ring" />
+									</picture>
+									<figcaption class="gallery-info">
+										<h2 class="ring-name text-3">КОЛЬЦО TRINITY, Cartier</h2>
+										<p class="ring-description text-1">
+											Белое золото, бриллианты
+										</p>
+										<p class="ring-price text-1">498 000 ₽</p>
+									</figcaption>
+								</figure>
+							</article>
+
+							<article class="gallery-item">
+								<figure class="gallery-card">
+									<picture>
+										<img src="img/gallery-1.png" alt="ring" />
+									</picture>
+									<figcaption class="gallery-info">
+										<h2 class="ring-name text-3">КОЛЬЦО TRINITY, Cartier</h2>
+										<p class="ring-description text-1">
+											Белое золото, бриллианты
+										</p>
+										<p class="ring-price text-1">498 000 ₽</p>
+									</figcaption>
+								</figure>
+							</article>
+
+							<article class="gallery-item">
+								<figure class="gallery-card">
+									<picture>
+										<img src="img/gallery-1.png" alt="ring" />
+									</picture>
+									<figcaption class="gallery-info">
+										<h2 class="ring-name text-3">КОЛЬЦО TRINITY, Cartier</h2>
+										<p class="ring-description text-1">
+											Белое золото, бриллианты
+										</p>
+										<p class="ring-price text-1">498 000 ₽</p>
+									</figcaption>
+								</figure>
+							</article>
+						</div>
+					</div>
+				</div>
+
+				<section class="contacts">
+					<div class="contacts-list">
+						<div class="contacts-item contacts-item--img">
+							<picture>
+								<source type="img/webp" src="img/contact-img.webp" />
+								<source type="img/avif" src="img/contact-img.avif" />
+								<source type="img/jpg" src="img/contact-img.jpg" />
+								<source type="img/png" src="img/contact-img.png" />
+								<img
+									loading="lazy"
+									src="img/contact-img.png"
+									alt="woman is posing"
+								/>
+							</picture>
+						</div>
+						<div class="contacts-item contacts-item--form">
+							<div class="form-content">
+								<h2 class="contact-title text-1">
+									телефон флагманского магазина
+								</h2>
+								<a href="+7 800 456 456" class="contact-phone phone"
+									>+7 800 456 456</a
+								>
+								<p class="contact-text text-1">подпишитесь на новости</p>
+
+								<form class="contact-form">
+									<input
+										type="email"
+										class="contact-input input"
+										placeholder="Введите E-mail"
+									/>
+
+									<button class="btn-reset footer-input__submit">
+										<svg
+											width="30"
+											height="17"
+											viewBox="0 0 30 17"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M21.125 1L29 8.5M29 8.5L21.125 16M29 8.5H1"
+												stroke="#272727"
+												stroke-width="1.8"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<footer class="footer">
+				<div class="footer__container container">
+					<div class="footer-top">
+						<ul class="footer-list">
+							<li class="footer-list__item">
+								<a href="#" class="footer-list__link">работа в компании</a>
+							</li>
+							<li class="footer-list__item">
+								<a href="#" class="footer-list__link">условия пользования</a>
+							</li>
+							<li class="footer-list__item">
+								<a href="#" class="footer-list__link">выходные данные</a>
+							</li>
+							<li class="footer-list__item">
+								<a href="#" class="footer-list__link"
+									>политика конфиденциальности</a
+								>
+							</li>
+							<li class="footer-list__item">
+								<a href="#" class="footer-list__link">карта сайта</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer-bottom">
+						<div class="footer-logo">
+							<img src="img/footer-logo.svg" alt="footer logo" />
+						</div>
+
+						<div class="footer-contact">
+							<div class="footer-contact__left">
+								<h2 class="footer__title text-4">телефон горячей линии</h2>
+								<a href="+7 800 456 456" class="footer-contact__phone phone"
+									>+7 800 456 456</a
+								>
+								<div class="social-list">
+									<a class="social-link" href="#">
+										<img
+											class="social-icon"
+											style="margin-right: 15px"
+											src="img/facebook.svg"
+											alt="facebook icon"
+										/>
+									</a>
+									<a class="social-link" href="#">
+										<img
+											class="social-icon"
+											src="img/instagram.svg"
+											alt="instagram icon"
+										/>
+									</a>
+								</div>
+							</div>
+
+							<div class="footer-contact__right">
+								<h2 class="footer__title text-4">подпишитесь на новости</h2>
+								<form class="footer-contact__form">
+									<input
+										type="email"
+										class="footer-contact__input input"
+										placeholder="Введите E-mail"
+									/>
+									<button class="btn-reset footer-input__submit">
+										<svg
+											width="30"
+											height="17"
+											viewBox="0 0 30 17"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M21.125 1L29 8.5M29 8.5L21.125 16M29 8.5H1"
+												stroke="white"
+												stroke-width="1.8"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</button>
+								</form>
+								<div class="social-list">
+									<a class="social-link" href="#"></a
+									><img
+										style="margin-right: 15px"
+										src="img/apple-store.svg"
+										alt="download from apple store"
+									/>
+									<a class="social-link" href="#"></a
+									><img
+										src="img/goole-play.svg"
+										alt="download from google play"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="./js/script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	</body>
+</html>
